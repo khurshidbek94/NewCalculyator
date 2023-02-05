@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display {
+  margin: 0 10px;
+  height: 30px;
+  width: auto;
+  max-width: 270px;
+  color: aliceblue;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+.calculyator {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.871);
+}
+
+table {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+table button {
+  width: 30px;
+  margin: 5px 0;
+}
